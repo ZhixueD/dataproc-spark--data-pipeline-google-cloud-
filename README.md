@@ -19,6 +19,7 @@ In this project, I have established a ETL data pipeline using dataproc(spark) on
 5. Create a python file for Dataproc and PySpark
 6. Create a workflow
 7. Data analyze in Bigquery (by using Bigquery ML for creating a machine learing model of recommendation system for restaurant for user).
+8. Tableau for data visulization and analyze
 
 ## 1. Create Google Cloud Storage Bucket
 
@@ -84,8 +85,31 @@ Click Web Interfaces in dataproc cluster, and here you can ran jupyter file whic
 
 ## 6. Create a workflow
 
-run code: 
+in the VM machine run code, and will start a dataproc job: 
 ![submit dataproc job](https://user-images.githubusercontent.com/98153604/150832944-42551f5e-3552-40c6-9e71-abae871ee1a4.JPG)
+
+## 7. Data analyze in Bigquery (by using Bigquery ML for creating a machine learing model of recommendation system for restaurant for user).
+
+After dataproc (spark) ETL pipeline, the data after cleaning and transforming has successfully saved in Bigquery. Bigquery is a data warehouse held by google cloud.
+
+![bigquery data](https://user-images.githubusercontent.com/98153604/150865380-b026272d-77f2-4e78-91ef-c9ae8f354583.JPG)
+
+![bigquery data2](https://user-images.githubusercontent.com/98153604/150865592-572842cc-e408-4676-ae72-5de1a1467447.JPG)
+
+Since bigquery support machine learing analysis directly in bigquery, by using Bigquery ML, here I plan to create a recommendation machine learning model for user of Yelp company to recommend restaurant. This is a classic recommmendation system, which I will use matrix_factorization machine learning model type to tranning my data.
+To trainning the data is easy, I just need to run a SQL query in Bigquery:
+
+![machine learning SQL](https://user-images.githubusercontent.com/98153604/150866940-21d48a62-87f8-408b-a054-94dadeacbad6.JPG)
+
+However, I did not proceed the machine learning because the machine learing need large compute resourses provide by google. And my google account do not have the right to order these resourses. 
+
+## 8. Tableau for data visulization and analysis
+
+By using Tableau to connect Bigquery, I do some data visulization and analyze by using Tableau
+
+
+
+
 
 
 
