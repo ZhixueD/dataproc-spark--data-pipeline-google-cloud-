@@ -29,6 +29,27 @@ In this project, I have established a ETL data pipeline using dataproc(spark) on
 
 In google console, select compute engine. In compute engine, create a vm instance.
 
+![vm2](https://user-images.githubusercontent.com/98153604/150822993-a29fa59d-ee49-4d0b-add0-e8d1325479e6.JPG)
+
+## 3. Using virtual machine to install packages and download data from Kaggle open datasets and upload it to google cloud storage.
+
+Click SSH in your VM machine
+
+![vm for download](https://user-images.githubusercontent.com/98153604/150823949-830990b2-a4e3-432c-8d8b-34ca42bda483.JPG)
+
+### RUN Some code to install some package first:
+
+#### sudo apt-get install python3-pip
+
+#### sudo pip3 pip install pyspark
+
+
+
+
+
+
+
+
 
 
 
