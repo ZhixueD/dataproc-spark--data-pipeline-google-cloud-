@@ -52,6 +52,40 @@ Click SSH in your VM machine
 
 ![yelp datasets in GCS](https://user-images.githubusercontent.com/98153604/150826698-55a024e1-d3b1-42b9-ac06-631e97c7987f.JPG)
 
+## 4. Create a dataproc cluster follow next steps, this will also allowd run spark Pipeline using Google jupyter nootbook:
+
+(1) Configure and start a Cloud Dataproc cluster
+
+(2) In the GCP Console, on the Navigation menu, in the Big Data section, click Dataproc.
+
+(3) Click Create Cluster.
+
+(4) Enter the Cluster Name.
+
+(5) In the Versioning section, click Change and select 2.0 (Debian 10, Hadoop 3.2, Spark 3.1).
+
+(6) Click Select.
+
+(7) In the Components > Component gateway section, select Enable component gateway.
+
+(8) Under Optional components, Select Jupyter Notebook.
+
+(9) Click Create.
+
+after dataproc cluster has create, a staging folder and a temp folder in Google cloud storage will also be estabilish, copy jupyter file which you create to nookbook/jupyter folder.
+
+![staging folder](https://user-images.githubusercontent.com/98153604/150829972-19e5952d-5a13-4650-8c33-e272fee4c142.JPG)
+
+Click Web Interfaces in dataproc cluster, and here you can ran jupyter file which you establish (in the attachment), but here I choose to directly run python file which I writen to create in a dataproc job for ETL pipeline.
+
+## 5. Create a python file for Dataproc and PySpark （python file in attachment)
+
+![pycode](https://user-images.githubusercontent.com/98153604/150832104-c4d2da68-993c-4bfd-bb5b-b95863aa1c18.JPG)
+
+
+
+
+
 
 
 
