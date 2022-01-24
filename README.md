@@ -107,6 +107,17 @@ However, I did not proceed the machine learning because the machine learing need
 
 By using Tableau to connect Bigquery, I do some data visulization and analyze by using Tableau
 
+### This is restaurants distribution in different states and its review numbers (left-up conner), and also which state has the highest average stars for their restaurant,
+### The top 10 restaurant number cities and review number cities
+
+![image](https://user-images.githubusercontent.com/98153604/150879780-f3bae6df-a70b-41fc-9c01-242d24be8248.png)
+
+### I can use tableau to have the restaurant distribution details for one city on map with their review number and stars information, the city can be easily changed
+
+![tableau city distribution](https://user-images.githubusercontent.com/98153604/150880430-18cbe0ef-1bd3-4bda-a439-d2b596e57cd2.JPG)
+
+
+
 
 
 
