@@ -15,9 +15,10 @@ In this project, I have established a ETL data pipeline using dataproc(spark) on
 1. Create Google Cloud Storage Bucket
 2. Create a virtual machine from google compute engine.
 3. using virtual machine to install packages and download data from Kaggle open datasets and upload it google cloud storage.
-4. Create a python file for Dataproc and PySpark
-5. Create a workflow
-6. Data analyze in Bigquery (by using Bigquery ML for creating a machine learing model of recommendation system for restaurant for user).
+4. Create a dataproc cluster
+5. Create a python file for Dataproc and PySpark
+6. Create a workflow
+7. Data analyze in Bigquery (by using Bigquery ML for creating a machine learing model of recommendation system for restaurant for user).
 
 ## 1. Create Google Cloud Storage Bucket
 
@@ -42,6 +43,15 @@ Click SSH in your VM machine
 #### sudo apt-get install python3-pip
 
 #### sudo pip3 pip install pyspark
+
+### using kaggle API to download data into VM Machine (code not show)
+
+### copy datasets from VM Machine to google cloud storage
+
+#### gsutil cp *.json gs://t-osprey-337221/t-osprey-337221-yelp
+
+![yelp datasets in GCS](https://user-images.githubusercontent.com/98153604/150826698-55a024e1-d3b1-42b9-ac06-631e97c7987f.JPG)
+
 
 
 
