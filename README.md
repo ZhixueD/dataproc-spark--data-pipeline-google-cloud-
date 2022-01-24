@@ -78,9 +78,15 @@ after dataproc cluster has create, a staging folder and a temp folder in Google 
 
 Click Web Interfaces in dataproc cluster, and here you can ran jupyter file which you establish (in the attachment), but here I choose to directly run python file which I writen to create in a dataproc job for ETL pipeline.
 
-## 5. Create a python file for Dataproc and PySpark （python file in attachment)
+## 5. Create a python file for Dataproc and PySpark （python file in attachment) and save the file to google cloud storage
 
 ![pycode](https://user-images.githubusercontent.com/98153604/150832104-c4d2da68-993c-4bfd-bb5b-b95863aa1c18.JPG)
+
+## 6. Create a workflow
+
+run code: 
+![submit dataproc job](https://user-images.githubusercontent.com/98153604/150832944-42551f5e-3552-40c6-9e71-abae871ee1a4.JPG)
+
 
 
 
