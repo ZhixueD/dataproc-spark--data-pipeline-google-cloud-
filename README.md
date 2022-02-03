@@ -10,7 +10,7 @@ This dataset is a subset of Yelp's businesses, reviews, and user data. The datas
 The Api for this datasets is:'kaggle datasets download -d yelp-dataset/yelp-dataset'.
 
 
-In this project, I have established a ETL data pipeline using dataproc(spark) on google cloud platform to extract data from google cloud storage (data lake), do some data transform and cleaning, and load data to Bigquery (data warehouse) for data analysis. The project includes a fully functioning pipeline of ingestion, ETL and data analysis and we will do it following these steps:
+In this project, I have established a ETL data pipeline using dataproc(spark) on Google Cloud Platform to extract data from Google cloud Storage (data lake), do some data transform and cleaning using Pyspark, and load data to Bigquery (Data Warehouse) for data analysis. I also conncect bigquery with Tableau,and do data visualization and analysis with Tableau. The project includes a fully functioning pipeline of ingestion, ETL and data analysis and we will do it following these steps:
 
 1. Create Google Cloud Storage Bucket
 2. Create a virtual machine from google compute engine.
